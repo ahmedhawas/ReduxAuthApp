@@ -1,8 +1,9 @@
+const ROOT_URL = 'http://localhost:3090';
+
 export function siginUser( { email, password }) {
   return function(dispatch) {
     //submit email and password to server
-        
-
+    
     // if request is good.
     // - Update state to indicate user is authenticated
     // - Save JWT token
